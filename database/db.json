@@ -1,0 +1,10 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Stromtrooper",
+      "price": "20",
+      "image": "https://s3-alpha-sig.figma.com/img/7288/617c/839c11fc3105027e126215f3647fa5b0?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lDuVRzyHj7vQ1Fc1hcfx6bzi64-Lerv-fbVDyC9tDiXXKlW0ZjIxDu7vJSONc~foPjwWqvSBvYZUSBnw43VgEttwx5DQoj1aeT0WUkoXsKayhsSgGfIlxswZSTg32sFASmg~Z-UI-d-Mc4gd3~MHHCU5e42BwIsklMJoiFFydnmodL~SEYRBLUFQSG1UiZ-CI5gl~PJNnxDB3j~YnqmN3zvaV1Inhzj4j4hJ4xyQvuZAaYI7tX-re~px0Sr4HQB08CqPjYZigaiM1un6t7HUs~P668OBWsa6rdqx3~2pJUhy5JpRmCukSXQH8DTAJW~eEW-2DaC-n7uo7iOz0tMLaQ__"
+    }
+  ]
+}

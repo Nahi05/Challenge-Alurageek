@@ -23,7 +23,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 80px;
+    margin: 90px;
 }
 
 h1{
@@ -93,6 +93,9 @@ section.productos{
     padding-right: 15px;
 }
 
+button{
+    background-color: #5D04D9;
+}
 
 
 /* Formulario */
@@ -101,7 +104,6 @@ section.Formulario{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
 }
 
 .form_container{
@@ -116,6 +118,14 @@ input{
     border: 3px solid #03318c;
     width: 472px;
     height: 58px;
+    outline: none
+    
+}
+
+.form_container input[type=text]{
+    font-family: IBM Plex Mono, monospace;
+    font-size: 18px;
+    padding-left: 11px;
 }
 
 input::placeholder{
@@ -123,7 +133,7 @@ input::placeholder{
     font-size: 16px;
     font-weight: 600;
     color: #03318c;
-    padding: 10px;
+    padding: 4px;
 }
 
 .button_products{
@@ -155,11 +165,13 @@ input::placeholder{
 /* footer */
 
 footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #5D04D9;
     flex-direction: column;
     padding: 40px;
-    bottom: 0;
-    clear: both;
     justify-content: center;
 }
 
