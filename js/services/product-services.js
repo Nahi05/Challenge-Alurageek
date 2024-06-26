@@ -1,7 +1,7 @@
 const productList = () => {
     return fetch("http://localhost:3000/products")
-        .then((res) => res.json())
-        .catch((err) => console.log(err));
+    .then((res) => res.json())
+    .catch((err) => console.log(err));
 };
 
 const createProduct = (name, price, image) => {
@@ -22,10 +22,7 @@ const createProduct = (name, price, image) => {
 
 const deleteProduct = (id) => {
     return fetch(`http://localhost:3000/products/${id}`, {
-        method: "DELETE",
-        headers:{
-            "Content-Type": "application/json"
-        }
+        method: "DELETE"
     })
 };
 

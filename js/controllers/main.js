@@ -38,19 +38,14 @@ const render = async () =>{
     try {
         const listProduct = await servicesProducts.productList();
         
-        listProduct.forEach(product => {
+        listProduct.forEach((product) => {
             productContainer.appendChild(
-                createCard(
-                    product.name,
-                    product.price,
-                    product.image,
-                    product.id
-                )
-            )
+                createCard(product.name, product.price, product.image, product.id)
+            );
         });
 
     } catch (error) {
-        console.log(error)
+        console.log(error);
     }
 };
 
